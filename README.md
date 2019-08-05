@@ -2,10 +2,12 @@
 
 ### Problem Overview
 It is important that credit card companies are able to recognize fraudulent credit card transactions so that customers are not charged for items that they did not purchase.
+
 The objective of this problem is to identify whether a new transaction is fraudulent or not. Our aim here is to detect 100% of the fraudulent transactions while minimizing the incorrect fraud classifications. 
 
 ### Data Source 
 The dataset for this credit card fraud detection comes from Kaggle: 
+
 https://www.kaggle.com/mlg-ulb/creditcardfraud
 
 ### Findings
@@ -16,4 +18,4 @@ https://www.kaggle.com/mlg-ulb/creditcardfraud
 *     There is no missing value in the dataset.
 
 ### Data Modeling
-I perfromed Auto-encoder model using both tensorflow and keras. After using oversampling method SMOTE to make data balanced, I used Logistic Regression as the Baseline Model and then improved baseline model via Logistic Regression with Grid Search, Random Forest, Random Forest with Grid Search, LightGBM model and Xgboost model.
+I perfromed Auto-encoder model using both tensorflow and keras. After using oversampling method SMOTE to make data balanced, I used Logistic Regression as the baseline model and then improved this baseline model via Logistic Regression with Grid Search, Random Forest, Random Forest with Grid Search, LightGBM model and Xgboost model.
